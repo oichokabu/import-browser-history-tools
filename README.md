@@ -1,6 +1,10 @@
 # import-browser-history-tools
 ブラウザ間で履歴ファイルをインポートする自作ツール
 
+## Tips.
+
+- 後述の履歴ファイル（`places.sqlite`や`History`）は、vscodeアドオンのsqlite3で開くと、中身が閲覧できるので便利。
+
 ## TL;DR
 
 - この手順では、MacOS（筐体:MacBook Air M3 2024、OS:Sequoia 15.0）での操作手順を示しています。WindowsOSの方は参考にならないと思います。

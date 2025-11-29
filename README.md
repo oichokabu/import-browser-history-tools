@@ -70,8 +70,11 @@ $ wc -l firefox_history_extraction.csv
 ### 5. 事前確認（Chrome 側の現在の件数を確認）
 
 - 現状確認のため、Chromeの`History`の履歴レコード件数を確認する。出力された数値をメモしておく。
+
+```sh
 sqlite3 "/Users/{ユーザー名}/Library/Application Support/Google/Chrome/Default/History" \
   "SELECT (SELECT COUNT(*) FROM urls) AS urls_count, (SELECT COUNT(*) FROM visits) AS visits_count;"
+```
 
 ### 6. 実行する前に、試験実施をしておく
 
